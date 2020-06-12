@@ -1,0 +1,8 @@
+﻿  소스.cpp
+C:\Users\SKY\Desktop\2020\Develope\CppNote\0608\0608\소스.cpp(43,20): warning C4305: '인수': 'int'에서 'const _Elem'(으)로 잘립니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\SKY\Desktop\2020\Develope\CppNote\0608\0608\소스.cpp(43,12): warning C4309: '인수': 상수 값이 잘립니다.
+  0608.vcxproj -> C:\Users\SKY\Desktop\2020\Develope\CppNote\0608\Debug\0608.exe
