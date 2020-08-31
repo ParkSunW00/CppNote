@@ -1,2 +1,2 @@
 # CppNote
-Cpp Study Example
+School C++ Study Example
