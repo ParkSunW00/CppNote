@@ -2,31 +2,22 @@
 #include <cstring>
 using namespace std;
 
-class Person {
-	char* Name;
-	int Age;
+class CPerson {
 public:
-	Person(const char* mName, int mAge) {
-		int len = strlen(mName) + 1;
-		Name = new char[len];
-		strcpy_s(Name, 20, mName);
-		Age = mAge;
+	string mName;
+	int mAge;
+	CPerson(string name, int age) {
+		mName = name;
+		mAge = age;
 	}
-	void ShowPerson() const {
-		cout << Name << " " ;
-		cout << Age << endl;
-	}
-	~Person() {
-		delete[]Name;
+	CPerson(const CPerson& obj) {
+		mName = obj.mName + "Copy";
+		mAge = 23;
 	}
 };
-//int main(void)
-//{
-//	Person p1("Linda", 29);
-//	Person p2=p1;
-//	p1.("Linda copy", 24);
-//	p1.ShowPerson();
-//	p2.ShowPerson();
-//
-//	return 0;
-//}
+int main() {
+	CPerson p1("Linda", 29);
+	CPerson p2 = p1;
+	cout << p1.mName << " " << p1.mAge << endl;
+	cout << p2.mName << " " << p2.mAge << endl;
+}
