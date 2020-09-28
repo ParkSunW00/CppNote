@@ -1,0 +1,10 @@
+﻿  Q1.cpp
+C:\Users\SKY\Desktop\2020\Development\CppNote\Operate\Operate\Q1.cpp(16,44): error C2084: 'CTest CTest::operator +(const CTest &)' 함수에 이미 본문이 있습니다.
+C:\Users\SKY\Desktop\2020\Development\CppNote\Operate\Operate\Q1.cpp(12): message : '+'의 이전 정의를 참조하십시오.
+  Q2.cpp
+C:\Users\SKY\Desktop\2020\Development\CppNote\Operate\Operate\Q2.cpp(12,6): error C2086: 'int CTest::mValue': 재정의
+C:\Users\SKY\Desktop\2020\Development\CppNote\Operate\Operate\Q2.cpp(6): message : 'CTest::mValue' 선언을 참조하십시오.
+  Q3.cpp
+  Q4.cpp
+C:\Users\SKY\Desktop\2020\Development\CppNote\Operate\Operate\Q4.cpp(11,1): error C2059: 구문 오류: '.'
+  코드를 생성하고 있습니다...
