@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream>
 using namespace std;
 
@@ -20,3 +21,12 @@ int main() {
 
 	cout << e1.getBonus();
 }
+=======
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	cout << "게임프로그래밍" << endl;
+//	return 0;
+//}
+>>>>>>> f52b1a170fd9ae30111551054e340112d0f0cd6b
